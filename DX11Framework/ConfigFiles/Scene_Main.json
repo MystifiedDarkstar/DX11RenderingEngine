@@ -1,0 +1,253 @@
+ {
+  "Lights": [
+    {
+      "Type": "Directional",
+      "LightDir": [ 0, -0.5, 0.5 ],
+      "DiffuseLight": [ 0.5, 0.5, 0.5, 1.0 ],
+      "AmbientLight": [ 0.2, 0.2, 0.2, 1.0 ],
+      "SpecularLight": [ 0.8, 0.8, 0.8, 1.0 ],
+      "SpecularPower": 20.0
+    },
+    {
+      "Type": "Point",
+      "Ambient": [ 0.3, 0.3, 0.3, 1.0 ],
+      "Diffuse": [ 0.2, 0.4, 0.2, 1.0 ],
+      "Attenuation": [ 0.1, 0.3, 0.3 ],
+      "Range": 6,
+      "Position": [ 0, 0, 0 ]
+    }
+  ],
+  "Cameras": [
+    {
+      "Type": "Debug",
+      "EyePos": [ 0, 3.0, -10.0 ],
+      "LookTo": [ 0, -3, 6 ],
+      "UpVector": [ 0, 0.5, 0 ]
+    },
+    {
+      "Type": "Static",
+      "EyePos": [ 0, 3.0, -10.0 ],
+      "LookAt": [ 0, 0, 0 ],
+      "UpVector": [ 0, 0.5, 0 ]
+    },
+    {
+      "Type": "Static",
+      "EyePos": [ 0, 3.0, 10.0 ],
+      "LookAt": [ 0, 0, 0 ],
+      "UpVector": [ 0, 0.5, 0 ]
+    },
+    {
+      "Type": "Static",
+      "EyePos": [ -10.0, 3.0, 0.0 ],
+      "LookAt": [ 0, 0, 0 ],
+      "UpVector": [ 0, 0.5, 0 ]
+    },
+    {
+      "Type": "Static",
+      "EyePos": [ 10.0, 3.0, 0.0 ],
+      "LookAt": [ 0, 0, 0 ],
+      "UpVector": [ 0, 0.5, 0 ]
+    }
+  ],
+  "GameObjects": [
+    {
+      "ID": 0,
+      "Tag": "GUI",
+      "Position": [ 10.0, 10.0, 0.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0, 1.0 ],
+      "Components": [
+        {
+          "COMPTYPE": "TextRenderer",
+          "TextValue": "Camera Type: ",
+          "TextColour": [ 0, 0, 0, 1 ]
+        }
+      ]
+    },
+    {
+      "ID": 1,
+      "Tag": "GUI",
+      "Position": [ 1180.0, 10.0, 0.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0, 1.0 ],
+      "Components": [
+        {
+          "COMPTYPE": "SpriteRenderer",
+          "SpritePath": "Textures/T_StaffsUni.dds",
+          "SpriteSize": [ 64, 64 ]
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "Tag": "Enemy",
+      "Position": [ 2.0, 0.0, 2.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0, 1.0 ],
+      "Components": [
+        {
+          "COMPTYPE": "StaticMesh",
+          "ColourTexturePath": "Textures/Crate_COLOR.dds",
+          "SpecularTexturePath": "Textures/Crate_SPEC.dds",
+          "MeshDataPath": "3DSModels/SM_Cube.obj",
+          "HasTransparency": 1,
+          "Transparency": [ 0.75, 0.75, 0.75, 0.75 ]
+        }
+      ]
+    },
+    {
+      "ID": 4,
+      "Tag": "Enemy",
+      "Position": [ 2.0, 0.0, -2.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0, 1.0 ],
+      "Components": [
+        {
+          "COMPTYPE": "StaticMesh",
+          "ColourTexturePath": "Textures/Crate_COLOR.dds",
+          "SpecularTexturePath": "Textures/Crate_SPEC.dds",
+          "MeshDataPath": "3DSModels/SM_Cube.obj",
+          "HasTransparency": 1,
+          "Transparency": [ 0.5, 0.5, 0.5, 0.5 ]
+        }
+      ]
+    },
+    {
+      "ID": 5,
+      "Tag": "Enemy",
+      "Position": [ -2.0, 0.0, 2.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0, 1.0 ],
+      "Components": [
+        {
+          "COMPTYPE": "StaticMesh",
+          "ColourTexturePath": "Textures/Crate_COLOR.dds",
+          "SpecularTexturePath": "Textures/Crate_SPEC.dds",
+          "MeshDataPath": "3DSModels/SM_Cube.obj",
+          "HasTransparency": 0,
+          "Transparency": [ 0, 0, 0, 0 ]
+        }
+      ]
+    },
+    {
+      "ID": 6,
+      "Tag": "Enemy",
+      "Position": [ -2.0, 0.0, -2.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0, 1.0 ],
+      "Components": [
+        {
+          "COMPTYPE": "StaticMesh",
+          "ColourTexturePath": "Textures/Crate_COLOR.dds",
+          "SpecularTexturePath": "Textures/Crate_SPEC.dds",
+          "MeshDataPath": "3DSModels/SM_Cube.obj",
+          "HasTransparency": 0,
+          "Transparency": [ 0, 0, 0, 0 ]
+        }
+      ]
+    },
+    {
+      "ID": 7,
+      "Tag": "Enemy",
+      "Position": [ -5.0, 0.0, -5.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0, 1.0 ],
+      "Components": [
+        {
+          "COMPTYPE": "StaticMesh",
+          "ColourTexturePath": "Textures/Car_COLOR.dds",
+          "SpecularTexturePath": "",
+          "MeshDataPath": "3DSModels/SM_Car.obj",
+          "HasTransparency": 0,
+          "Transparency": [ 0, 0, 0, 0 ]
+        }
+      ]
+    },
+    {
+      "ID": 8,
+      "Tag": "Enemy",
+      "Position": [ -5.0, 0.0, 5.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0, 1.0 ],
+      "Components": [
+        {
+          "COMPTYPE": "StaticMesh",
+          "ColourTexturePath": "Textures/Car_COLOR.dds",
+          "SpecularTexturePath": "",
+          "MeshDataPath": "3DSModels/SM_Car.obj",
+          "HasTransparency": 0,
+          "Transparency": [ 0, 0, 0, 0 ]
+        }
+      ]
+    },
+    {
+      "ID": 9,
+      "Tag": "Enemy",
+      "Position": [ 5.0, 0.0, 5.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0, 1.0 ],
+      "Components": [
+        {
+          "COMPTYPE": "StaticMesh",
+          "ColourTexturePath": "Textures/Car_COLOR.dds",
+          "SpecularTexturePath": "",
+          "MeshDataPath": "3DSModels/SM_Car.obj",
+          "HasTransparency": 0,
+          "Transparency": [ 0, 0, 0, 0 ]
+        }
+      ]
+    },
+    {
+      "ID": 10,
+      "Tag": "Enemy",
+      "Position": [ 5.0, 0.0, -5.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0 ],
+      "Scale": [ 1.0, 1.0, 1.0 ],
+      "Components": [
+        {
+          "COMPTYPE": "StaticMesh",
+          "ColourTexturePath": "Textures/Car_COLOR.dds",
+          "SpecularTexturePath": "",
+          "MeshDataPath": "3DSModels/SM_Car.obj",
+          "HasTransparency": 0,
+          "Transparency": [ 0, 0, 0, 0 ]
+        }
+      ]
+    },
+    {
+      "ID": 11,
+      "Tag": "Environment",
+      "Position": [ 0.0, -3.0, 0.0 ],
+      "Rotation": [ 0.0, 0.0, 0.0 ],
+      "Scale": [ 40.0, 0.5, 40.0 ],
+      "Components": [
+        {
+          "COMPTYPE": "StaticMesh",
+          "ColourTexturePath": "Textures/asphalt_COLOR.dds",
+          "SpecularTexturePath": "Textures/asphalt_SPEC.dds",
+          "MeshDataPath": "3DSModels/SM_Cube.obj",
+          "HasTransparency": 0,
+          "Transparency": [ 0, 0, 0, 0 ]
+        }
+      ]
+    },
+    {
+      "ID": 12,
+      "Tag": "Enemy",
+      "Position": [ 20.0, 0.5, 0.0 ],
+      "Rotation": [ 0.0, 90.0, 0.0 ],
+      "Scale": [ 1.0, 1.0, 1.0 ],
+      "Components": [
+        {
+          "COMPTYPE": "StaticMesh",
+          "ColourTexturePath": "Textures/Hercules_COLOR.dds",
+          "SpecularTexturePath": "",
+          "MeshDataPath": "3DSModels/SM_Airplane.obj",
+          "HasTransparency": 0,
+          "Transparency": [ 0, 0, 0, 0 ]
+        }
+      ]
+    }
+  ],
+      "version": "1.1"
+}

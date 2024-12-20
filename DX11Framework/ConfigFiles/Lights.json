@@ -1,0 +1,15 @@
+{
+  "Lights": [
+    {
+      "LightDir": [0, -0.5, 0.5],
+      "DiffuseLight": [0.5, 0.5, 0.5, 1.0],
+      "DiffuseMaterial": [1.0, 1.0, 1.0, 1.0],
+      "AmbientLight": [0.1, 0.1, 0.1, 1.0],
+      "AmbientMaterial": [1.0, 1.0, 1.0, 1.0],
+      "SpecularLight": [0.8, 0.8, 0.8, 1.0],
+      "SpecularMaterial": [1.0, 1.0, 1.0, 1.0],
+      "SpecularPower": 10.0
+    }
+  ],
+  "version": "1.1"
+}

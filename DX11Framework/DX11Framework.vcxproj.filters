@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Scene_Main.cpp">
+      <Filter>.CPP Files\Game Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>.CPP Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJLoader.cpp">
+      <Filter>.CPP Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11Framework.cpp">
+      <Filter>.CPP Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>.CPP Files\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>.CPP Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMeshComp.cpp">
+      <Filter>.CPP Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>.CPP Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>.CPP Files\Entry Point</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshHandler.cpp">
+      <Filter>.CPP Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureHandler.cpp">
+      <Filter>.CPP Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>.CPP Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseCamera.cpp">
+      <Filter>.CPP Files\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticCamera.cpp">
+      <Filter>.CPP Files\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugCamera.cpp">
+      <Filter>.CPP Files\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>.CPP Files\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>.CPP Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>.CPP Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="DefCamera.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Component.h">
+      <Filter>.H Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentTypes.h">
+      <Filter>.H Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMeshComp.h">
+      <Filter>.H Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>.H Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Main.h">
+      <Filter>.H Files\Game Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>.H Files\Scene Management</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>.H Files\Scene Management</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>.H Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectTags.h">
+      <Filter>.H Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>.H Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11Framework.h">
+      <Filter>.H Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineStructures.h">
+      <Filter>.H Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJLoader.h">
+      <Filter>.H Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshHandler.h">
+      <Filter>.H Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureHandler.h">
+      <Filter>.H Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>.H Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCamera.h">
+      <Filter>.H Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticCamera.h">
+      <Filter>.H Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCamera.h">
+      <Filter>.H Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>.H Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>.H Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraTypes.h">
+      <Filter>.H Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="DefCamera.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include=".CPP Files">
+      <UniqueIdentifier>{0c9d1858-d66c-4c1c-89a7-32f2d0eb2472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".H Files">
+      <UniqueIdentifier>{6a8919df-13b6-4b20-b22e-19c6062c229e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{42adc9b7-3192-4bec-9d2b-db65068ff150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".CPP Files\SceneManagement">
+      <UniqueIdentifier>{76d355b0-7808-4b1a-9fe9-038c26e5b002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".CPP Files\Game Scenes">
+      <UniqueIdentifier>{e0d407f7-1ed5-41d9-9869-b71f4058db73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".CPP Files\GameObjects">
+      <UniqueIdentifier>{a244136d-c4c7-4bf7-a8b0-902275bf981a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".CPP Files\Components">
+      <UniqueIdentifier>{7a64702b-2a7e-4580-be19-d8fa9eeb2eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".CPP Files\Renderer">
+      <UniqueIdentifier>{a7b2f81d-d776-427c-816d-c43a0cb3206c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".CPP Files\Entry Point">
+      <UniqueIdentifier>{a0fef4a4-a50e-4522-8064-8f8cc02c3d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".H Files\Renderer">
+      <UniqueIdentifier>{fd2a3ce6-67b5-4e53-8aa3-e0c0f1486b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".H Files\Game Scenes">
+      <UniqueIdentifier>{08c7a2d5-1b79-40df-99d1-f8b45d03f0f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".H Files\Scene Management">
+      <UniqueIdentifier>{8f657aad-af6a-4338-88e4-6f7c7ee55b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".H Files\Components">
+      <UniqueIdentifier>{e1b89325-6a7f-4c70-b397-43c14a3e0daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".H Files\GameObjects">
+      <UniqueIdentifier>{8f9d3dff-15f2-4acc-bf5e-4cbdba0e44bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".H Files\Cameras">
+      <UniqueIdentifier>{2d1d66b9-fbe7-41fb-a57c-3e65ab44ac68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".CPP Files\Cameras">
+      <UniqueIdentifier>{ab7fccc5-06d5-4387-b416-4ba2d7b2b62e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimpleShaders.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="SkyboxShaders.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

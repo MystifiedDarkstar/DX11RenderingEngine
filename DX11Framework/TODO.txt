@@ -1,0 +1,32 @@
+> Ensure comments are placed on all my code.
+
+> Create 1 scene with objects/transparency
+> Start Graphics Reflective Report.
+
+
+Graphics Assignment
+
+1 : Introduction of features of project
+> Create UML Diagram - Done (Needs Checking)
+> Explain Key features with reference to UML
+> 400 Words +- 10%
+
+2: Features Implemented Well
+> Explanation
+> Analysis and Critique Implementation
+> Identification of Extra Materials Used for Understanding
+> 700 Words +- 10%
+Feature 1: Component System
+Feature 2: Texture / Mesh Handlers
+Feature 3: Rendering Queues
+
+3: Aspects for improvement:
+> Explanation of feature/aspect to improve/ Desired Outcome
+> Identify requirements to complete features
+> Identification of supporting materials
+
+Feature 1: Normal Mapping
+Feature 2: 
+> 700 Words +- 10%
+
+
